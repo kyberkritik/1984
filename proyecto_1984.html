@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyecto 1984</title>
+<meta name="description" content="Proyecto de investigación sobre las resonancias tecnoculturales del año 1984: un archivo sobre el acoplamiento entre técnica, cultura y poder.">
+<meta name="author" content="Jorge Cardiel Herrera">
+<style>
+  :root {
+    --bg: #0b0e14;
+    --fg: #eaeef3;
+    --muted: #a4acb9;
+    --card: #121826;
+    --accent: #8ab4ff;
+    --rule: #1f2635;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  header.hero {
+    position: relative;
+    padding: 72px 24px 48px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero h1 {
+    margin: 0 0 8px;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+  }
+  .hero p { margin: 0; color: var(--muted); }
+  .anim-row {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  canvas.anim {
+    background: #111;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  main {
+    max-width: 960px;
+    margin: 32px auto 80px;
+    padding: 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+  }
+  h1, h2, h3 { line-height: 1.25; }
+  h2 { font-size: 28px; margin: 0 0 12px; }
+  h3 { font-size: 20px; margin: 16px 0 8px; color: var(--accent); }
+  .meta { color: var(--muted); }
+  .desc { color: var(--muted); }
+  ul { padding-left: 20px; }
+  li + li { margin-top: 4px; }
+  blockquote {
+    margin: 12px 0;
+    padding: 12px 16px;
+    background: #0f1524;
+    border-left: 3px solid var(--accent);
+    color: var(--muted);
+    border-radius: 6px;
+  }
+  .foot {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    padding: 24px 16px 60px;
+  }
+  a.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    color: var(--fg);
+    text-decoration: none;
+    transition: transform .15s ease, background .15s ease;
+    background: #121826;
+  }
+  a.btn:hover { transform: translateY(-1px); background:#151c2c; }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Proyecto 1984</h1>
+    <p>Jorge Cardiel Herrera · 2025-10-22</p>
+    <div class="anim-row">
+      <canvas id="anim1" class="anim" width="140" height="140"></canvas>
+      <canvas id="anim2" class="anim" width="140" height="140"></canvas>
+      <canvas id="anim3" class="anim" width="140" height="140"></canvas>
+    </div>
+  </header>
+
+  <main>
+    
+<section id="intro" class="card">
+  <h1>Proyecto 1984</h1>
+  <p class="meta"><span>2025-10-22</span> · <span>Jorge Cardiel Herrera</span></p>
+  <p class="desc">Proyecto de investigación sobre las resonancias tecnoculturales del año 1984: un archivo sobre el acoplamiento entre técnica, cultura y poder.</p>
+</section>
+
+<section id="tesis" class="card">
+  <h2>VIII. 1984 – un año que nos lee</h2>
+  <p><strong>Tesis general</strong> — 1984 no sólo designa un año histórico, sino un umbral semiótico: un punto de condensación donde las infraestructuras técnicas, los imaginarios culturales y las epistemes del control se acoplan. No lo leemos; nos lee.</p>
+</section>
+
+<section id="arquitectura" class="card">
+  <h2>Arquitectura del corpus</h2>
+  <h3>1) Sistema-mundo y control</h3>
+  <ul>
+    <li>Publicación de <em>Soziale Systeme</em> (Niklas Luhmann) → emergencia de la autopoiesis social como paradigma de observación del orden moderno.</li>
+    <li>Muerte de Michel Foucault → cierre simbólico de una época de genealogías del poder.</li>
+    <li><em>Apple “1984”</em> (Ridley Scott) → estetización del control como liberación simulada en la cultura de masas.</li>
+  </ul>
+
+  <h3>2) Imaginarios tecnoculturales</h3>
+  <ul>
+    <li><em>Neuromancer</em> (William Gibson) → nacimiento de la cibernética ficcional y del ciberespacio como metáfora ontológica.</li>
+    <li><em>The Terminator</em> (dir. James Cameron) → máquina y cuerpo como figuras de destino técnico.</li>
+    <li><em>Blade Runner</em> (Ridley Scott, 1982) → precursor estético y sombra fundacional del imaginario 1984.</li>
+    <li><em>Purple Rain</em> (Prince) → performatividad del cuerpo como resistencia sensorial en un régimen de imagen.</li>
+    <li><em>Self Control</em> (Raf / Laura Branigan) → estética Italo Disco como poética del deseo mediado.</li>
+    <li><em>Acapulco Nights</em> (G. J. Lunghi, 1984) → micro‑pieza de climate‑ficción retrofuturista.</li>
+  </ul>
+
+  <h3>3) Resonancias latinoamericanas</h3>
+  <ul>
+    <li><em>Secretos</em> (José José, 1983; resonancia 1984) → emocionalidad industrializada: sensibilidad pop del Sur como contrapunto al tecnocontrol del Norte.</li>
+    <li>México 1984 → expansión de industrias culturales y consolidación televisiva del deseo moderno.</li>
+    <li><em>Japan ist weit</em> (Sandra, 1984) → traducción cultural y fetichismo tecnológico.</li>
+  </ul>
+
+  <h3>4) Referentes culturales liminales (influencias bisagra)</h3>
+  <ul>
+    <li><em>Flashdance</em> (1983) → referente liminal cuyo impacto se consolida en 1984 (moda, videoclip, aerobic‑glam, cultura MTV).</li>
+    <li><em>Blade Runner</em> (1982) → sombra fundacional.</li>
+    <li><em>Secretos</em> (1983) → alta resonancia estética y emocional en 1984.</li>
+  </ul>
+
+  <h3>5) Nodos teórico‑críticos (cine/teoría)</h3>
+  <ul>
+    <li>Siegfried Kracauer, <em>De Caligari a Hitler</em> → raíces estéticas del expresionismo y su relación con climas autoritarios.</li>
+    <li><strong>Edición alemana 1984</strong>: <em>Von Caligari zu Hitler</em> (Suhrkamp) → nodo interpretativo que conecta genealogías estéticas con formas de control cultural resonantes en 1984.</li>
+  </ul>
+</section>
+
+<section id="tsmc" class="card">
+  <h2>Infraestructuras del silicio: TSMC (Taiwan Semiconductor Manufacturing Company, 1984)</h2>
+  <p><strong>Contexto.</strong> La fundación de TSMC en 1984 inaugura el modelo <em>fabless/foundry</em> que disocia diseño y manufactura: la arquitectura del chip se separa de su producción. Este gesto técnico prefigura la externalización funcional propia de la globalización posterior.</p>
+  <ul>
+    <li><strong>Autopoiesis ↔ Modularidad.</strong> Clausura funcional y acoplamientos selectivos; el diseño observa sin intervenir directamente la manufactura.</li>
+    <li><strong>Ciberespacio ↔ Silicio.</strong> <em>Neuromancer</em> imagina, TSMC materializa; pensamiento digital hecho mineral.</li>
+    <li><strong>Capitalismo electrónico ↔ Performatividad.</strong> Fábrica invisible; el poder migra de la disciplina visible a la infraestructura técnica.</li>
+    <li><strong>Taiwán ↔ Geopolítica.</strong> Nodo crítico de la siliconización del conflicto; frontera tecnológica y simbólica.</li>
+    <li><strong>Estética de la precisión.</strong> Belleza del nanómetro frente al exceso del cuerpo en la cultura pop de 1984.</li>
+  </ul>
+</section>
+
+<section id="mexico" class="card">
+  <h2>México 1984 — Catástrofe, energía e imaginería industrial</h2>
+  <h3>San Juanico (San Juan Ixhuatepec), Estado de México — 19 de noviembre de 1984</h3>
+  <p><strong>Explosiones en la planta de almacenamiento de gas LP</strong> — una de las peores tragedias tecnológicas en México.</p>
+  <p><em>Lectura en el archivo 1984</em>:</p>
+  <ul>
+    <li><strong>Infraestructura como riesgo sistémico:</strong> cuando la logística energética se vuelve medio de destrucción.</li>
+    <li><strong>Visibilidad del poder:</strong> del anuncio publicitario (<em>Apple</em>) a la explosión infraestructural; el orden técnico como doble filo.</li>
+    <li><strong>Memoria afectiva y ciudad:</strong> el desastre como inscripción espacial y social de la modernidad fósil.</li>
+  </ul>
+</section>
+
+<section id="conclusion" class="card">
+  <h2>Conclusión provisional</h2>
+  <p>TSMC cristaliza el paso del poder visible (propaganda, espectáculo) al poder invisible (arquitectura técnica). San Juanico, por contraste trágico, revela el reverso de esa infraestructura: su fragilidad masiva. En el archivo 1984, la línea más fina del diagrama es el silicio; la más gruesa, la cicatriz urbana. Entre ambas, los imaginarios culturales delinean el régimen de sentido del presente.</p>
+</section>
+
+<section id="timeline" class="card">
+  <h2>Línea de tiempo — selección inicial (no exhaustiva)</h2>
+  <ul>
+    <li><strong>Tecnología/industria</strong>: Fundación de TSMC (Taiwán).</li>
+    <li><strong>Publicidad/tecno‑imaginario</strong>: Anuncio Apple “1984”.</li>
+    <li><strong>Literatura</strong>: Publicación de <em>Neuromancer</em> (William Gibson).</li>
+    <li><strong>Cine</strong>: <em>The Terminator</em> (James Cameron).</li>
+    <li><strong>Música</strong>: <em>Purple Rain</em> (álbum y película, Prince).</li>
+    <li><strong>Liminales</strong>: <em>Flashdance</em> (impacto consolidado en 1984); <em>Secretos</em> (resonancia 1984).</li>
+    <li><strong>Cine/teoría</strong>: Kracauer, <em>Von Caligari zu Hitler</em> (ed. Suhrkamp, 1984).</li>
+    <li><strong>México</strong>: Explosiones de San Juanico (19 nov).</li>
+    <li><strong>Pop europeo</strong>: <em>Japan ist weit</em> (Sandra); <em>Self Control</em> (Raf / Laura Branigan).</li>
+    <li><strong>Archivo retro‑futurista</strong>: <em>Acapulco Nights</em> (G. J. Lunghi).</li>
+  </ul>
+  <blockquote>El proyecto integra una lista ampliada (100+ entradas) que se verterá por módulos temáticos (tecnología, cine, música, política, teoría, México/AL).</blockquote>
+</section>
+
+<section id="biblio" class="card">
+  <h2>Bibliografía nodal mínima</h2>
+  <ul>
+    <li>Gibson, W. (1984). <em>Neuromancer</em>.</li>
+    <li>Luhmann, N. (1984). <em>Soziale Systeme</em>.</li>
+    <li>Kracauer, S. (1984, ed. alemana). <em>Von Caligari zu Hitler</em>. Suhrkamp.</li>
+    <li>Cameron, J. (1984). <em>The Terminator</em> (film).</li>
+    <li>Scott, R. (1982/1984). <em>Blade Runner</em>; anuncio Apple “1984”.</li>
+    <li>Prince (1984). <em>Purple Rain</em> (álbum y película).</li>
+    <li>Raf (1984); Branigan, L. (1984). <em>Self Control</em>.</li>
+    <li>Sandra (1984). <em>Japan ist weit</em>.</li>
+    <li>G. J. Lunghi (1984). <em>Acapulco Nights</em>.</li>
+  </ul>
+  <p class="foot">Archivo de investigación en curso — Jorge Cardiel Herrera</p>
+</section>
+
+    <section class="card" id="download">
+      <h3>Descarga</h3>
+      <p>Versión Markdown Jekyll del proyecto: <a class="btn" href="1984.md" download>1984.md</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Jorge Cardiel Herrera. Archivo en desarrollo.
+  </footer>
+
+<script>
+const ANIM_CIRCLE = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACBUlEQVR4nO3c3WriYBRA0ekwL2De/xl9hl4MFLH5VxN3u9at8J3A7olSQj4ul8sf3tvfsy+AZSIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIF/Dv7An6a6/U69dEwDPvO/PC+u8fNhJmyKZhID9mR59bKVCLt9GCeW4up/HDY44mF1pwm0mbPLbTmTLe7DV6R587orc8mrXVAoakpIgWItMoxazQ1S6RlRxYanSjSguMLfZ8rUoBIc85ao7vpIgWINOncNbq9BpECRAoQKcA/WMe9wxfSF5sUIFKASAEiBYgUIFKASAEiBYg0bvdz2083DINIASIFiBQg0qR3+Fr6fw0iBYg059xl+pouUoBIC85aptu5Ii07vtPdRJFWObLT91kiBYi01jHLNDrF00KbvehBopk/Apu02StWav5MkfZ4bqfF09zuHuKNKBneLRTjLV2/lB8OASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIAZ/+BFF3UjIt3gAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACFUlEQVR4nO3cUW7aUBBAUVJ1A2b/a2QN+WjUpFXSFNvYXM25v0ieJx3G8AF+WZbloufux9kH0PdBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCvTz7AM0ut1uX710vV4fPf1lWZZHz4j2D5ivehAYpE9awfOx3akg/dFGno/tSOWLw3s7Cu17NUhv7Su07zXd7h7C81cbb33TN+kAoe1TpiMlGo10zBptnzUX6UihjROHIh0vtGXuUKRWE5HOWqPV0yci5RqHdO4arTvDOKRikAJBCjQL6Rk+kH5110lmIUWDFAhSIEiBIAWCFAhSIEiBZiEd8Lvt/+yuk8xCigYpEKRA45Ce4WPp3jOMQyo2EencZVoxfSJSrqFIZy3TurlDkS5nOK2eOBfpcqzTllmjkSpNRzpmmTZO8XfMtx70Q6Jd3gTTN+l3j1ipva4J6b19nXa8mtvdJ3kiSibPForlKV36Jl8cAkEKBCkQpECQAkEKBCkQpECQAkEKBCkQpECQAr0C5rxUDyAEDasAAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACH0lEQVR4nO3cS4rDMBQF0ZemNyDvf41eQwaGRuQLiSXdaqqmgfDQkewMHF9aa2XZ/awewN4nEiCRAIkESCRAIgESCZBIgEQCJBIgkQCJBEgkQCIBEgmQSIBEAiQSIJEAiQRIJEAiARIJkEiARAIkEiCRAIkESCRAIgESCZBIgEQCJBIgkQCJBEgkQCIBEgmQSIBEAiQSIJEAiQRIJEAiARIJkEiARAIkEiCRAIkESCRAIgESCZBIgEQCJBIgkQCJBEgkQCIBEgmQSIBEAiQSIJEAiQRIJEAiARIJkEiARAIkEiCRAIkESCRAIgESCZBIgEQCJBIgkQCJBEgkQCIBEgmQSIBEAiQSIJEAiQTod/UA57Tv+7OPtm2bOcmILq211TN82AuYZ0HBkEgf8PThqGBIX/L0gahIPxxOFDr924aGQRqxphQnwOVuwlKGX/rST9KczR5+pNKRrMKRZm7w5MOUizR/1WKdQpFWrVemUyiS9SUird3OgYcpEcluikNK2MgJM/TFIdl9IgESCVAWUs7NIGeSSkOyh4kESCRAIgESCZBIgEQCJBKgLKScp3ZyJqk0JHuYSIBEAhSHlHAzSJihLw7J7ktEWruR045RZSLZTaFIq7Zz4DGqWKRasV6ZQpWMVHNXLVaowpHsKB1pzgZPPkaF+Dvm0aDHd8J5jtJP0l8jVhMhVCCkOntNKUIFutz1+UYUTL5bCNb/fkvXFUytU92ru2LdAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACHUlEQVR4nO3cXWrbQBhAUaV0A/L+1+g15KEQBMUt+hvponNeA84wdz7JBltf8zxP3NuvqxfA/4kUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgU8HvA/3i/35/+9Hq9Biyg7mue5zNe9x9hPhHsk+MjbcizJNXfjoy0M8+SVEuHvXE4sNDhr1Z3TKQz9lSnH3svdwO20qVv1ySNOexGyofZgO2RRh7whw/Txkjjd+3JnbZEumq/HtvJPSlgdaRrj/Mzh8kkBayLdIeDfIc1DGaSAkQKEClgRaT73Azus5IxTFKASAEiBYgUIFKASAEiBYgUsCLSfb61c5+VjGGSAkQKEClgXaQ73AzusIbBTFLA6kjXHuQHjtFkkhK2RLrqOD9zjKbNkzR+vx5baNpzuRu5a08uNLknJeyKNOaAP3yMpqN+fX7S13fk+eOYy90Zu6nQj8PuScfuqUJLnogS4NlCAWdFWvKUrp1GRGInH2YDRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECvgGdXlQPFR/TUgAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACGUlEQVR4nO3cUU7CQBRAUSBuAPa/RraAPyagYlsKtL3xnF8jmcyd11qj3R+Pxx3bdlh7AYwTKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKeBj9neez+e/vnQ6nWZ/LL/tH3rf3UCYvwj2vKmRZuS5JdUzxiM9meeWVPOM/ODwwkIv/7T/YyjSO/ZUpxnuX+4W2EqXvunuTNIyh91ITedhNuBnpCUPuGGa6Fuk5XdNpymukdbaL51GuScFfEVa9zgbpmEmKeCw28ZB3sIaNsskBYgUIFLA/nK5rL2GK791vcskBYgUIFKASAEiBYgUIFKASAGH7Tw/bmclW2OSAkQKECngsNvGzWALa9gskxTwFWndg2yMhpmkgGuktY6zMRr1bZKW3y+Fpvh5uVty1xSayD0p4E6kZQ64MZpu6L/P3/RXpfI8auhy947dVGiGkXvSa/dUoXm8ESXAu4UCHot0y1u6FjM/EovxMBsgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBTwCc7BUa3BgF5WAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACHElEQVR4nO3cUWrbQBRAUaV0A/b+1+g15KMQBMUtkkZjXXTOryEZ5s6TbOLo6/F4LFzbr08vgP8TKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAr4PeF3vF6vdy89n88JC6j7OulPFf8I845g74yPtCPPmlR/GxnpYJ41qdaGvXEYWGj4T6sbE+mMPdXpx9HL3YStdOk7NElzDruR8mE2YH+kmQf85sO0M9L8Xbtzpz2RPrVft+3knhSwOdJnj/M9h8kkBWyLdIWDfIU1TGaSAkQKEClgQ6Tr3Ayus5I5TFKASAEiBYgUIFKASAEiBYgUsCHSdb61c52VzGGSAkQKEClgW6Qr3AyusIbJTFLA5kifPcg3HKPFJCXsifSp43zPMVp2T9L8/bptoeXI5W7mrt250OKelHAo0pwDfvMxWkb99/lJX9+R548xl7szdlOhH8PuSWP3VKE1T0QJ8GyhgLMirXlK10EzInGQD7MBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgV8A9UxVA+jyNcVAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACGElEQVR4nO3cQW7CMBQAUdMbwP3PyBm6iIQQkAq1xJ5RZ7ZIyPLzT1iEnM7n85B3vV73PrpcLjNXclAnKdIPMHt5wXxIv+C5z0hlQvojz30uqq/VC3i3Dwp9/NuOzoF0xJ6KnOiXuwlbyb/0oSdpzmHnjxQaqba4SDMPOHyYoEjzd43sRERatV9YJyJSPYRDWnucmcOEQ6rnWEiEg0xYw0MspHpZSIJCEgRC4twMOCvZAiHVXiEJCklQSIJCEhSSoJAEhSQIhMR5aoezki0QUu0VkqCQBLGQCDcDwhoeYiHVy3BIaw8ycIwGEKmeIyKtOs7MMRpMpLFiv7BCA4s05u4aWWiQkeoWGmnOAYeP0eD/HXProMd3+Dxb6Em6dcRuWoSGBWl8ek9FQsNyubuvN6Jo6t1CsnpLV61P88PhPxeSoJAEhSQoJEEhCQpJUEiCQhIUkqCQBIUkKCRBIQkKSVBIgkISFJKgkASFJCgkQSEJCklQSIJCEhSSoJAEhSQoJEEhCQpJUEiCQhIUkqCQBIUkKCRBIQkKSVBIgkISFJKgkASFJCgkQSEJCklQSIJCEhSSoJAEhSQoJEEhCQpJUEiCQhIUkqCQBIUkKCRBIQkKSVBIgkISFJKgkASFJCgkQSEJCklQSIJCEhSSoJAEhSQoJEEhCQpJUEiCQhIUkqCQBIUkKCRBIQkKSVBIgkISFJKgkASFJOgbox9UDcSV4AkAAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACE0lEQVR4nO3cUW7aUBBAUVJlA7D/NbKGfDRq0io0wTY2V3PubyTPkw5jkAJ+OZ/PJz13v44+gL4PUiBIgSAFghQIUiBIgSAFghQIUiBIgSAFghTo9egDNLper7f+dLlcHj39xb8qbvUfmFs9CAzSFy3g+dzmVJD+aiXP5zak8sHhow2Ftr0apPe2Fdr2mm53D+H5p5W3vumbtIPQ+inTkRKNRtpnjdbPmou0p9DKiUOR9hdaM3coUquJSEet0eLpE5FyjUM6do2WnWEcUjFIgSAFmoX0DG9Iv7vrJLOQokEKBCkQpECQAkEKBCkQpECzkHb43vYPu+sks5CiQQoEKdA4pGd4W7r3DOOQik1EOnaZFkyfiJRrKNJRy7Rs7lCk0xFOiyfORTrt67Rm1mikStOR9lmmlVP8HPO9B32RaJMXwfRN+tMjVmqra0L6aFunDa/mdvdFnoiSybOFYnlKl77JB4dAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAJBCgQpEKRAkAK9AR6eVA/MkSyxAAAAAElFTkSuQmCC"];
+const ANIM_SQUARE = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhUlEQVR4nO3dsQ3DMAwAwTjIAvL+M3oGt+lcmc4HdwtQwINSqW2t9eK3vZ8+ANdEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJECviMTTqOY2zWmH3fB6bYpACRAkQKmHuTvs1c5TeZf1xtUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIAc98zfOXX8fdxyYFiBQgUsC21nr6DFywSQEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEnejsKTb/vmcIAAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhElEQVR4nO3VwQnDMBAAwTi4Aan/GlVDvvn5I+MsmSngOFhOOsYYL37b++kFuCZSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFHDuHbfW2juwa865a5RLChApQKSAzX/St42PcsVNX7JLChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQLO+0avte4b/ldcUoBIASIFHGOMp3fggksKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAj6H+gpN0nv34QAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABh0lEQVR4nO3VwQnDMBAAwTi4Abn/GlVDfiE/QyxI1sz8JQ6Wk7YxxoP/9vz1AJwTKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJECRAoQKUCkAJEC9ovn55xL5ri94zi+PmuTAkQKECng6p/06cqze0urPmybFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSwL7wrjnnwtt4s0kBIgWIFLCNMX49AydsUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFvACPnQpNdSEZLAAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhElEQVR4nO3VwQnDMBAAwTi4Aan/GlVDvvn5I+MsmSngOFhOOsYYL37b++kFuCZSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFHDuHbfW2juwa865a5RLChApQKSAzX/St42PcsVNX7JLChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQLO+0avte4b/ldcUoBIASIFHGOMp3fggksKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAj6H+gpN0nv34QAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhUlEQVR4nO3dsQ3DMAwAwTjIAvL+M3oGt+lcmc4HdwtQwINSqW2t9eK3vZ8+ANdEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJECviMTTqOY2zWmH3fB6bYpACRAkQKmHuTvs1c5TeZf1xtUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIASIFiBQgUoBIAc98zfOXX8fdxyYFiBQgUsC21nr6DFywSQEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEnejsKTb/vmcIAAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhElEQVR4nO3csQnDQAxA0ThkgfP+M3oGNylSBFzqPrw3geAj1OlYa73Y23t6AJ6JFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBn+kBvq7rmh7hv/M8p0ewSQUiBYgUsMtN+jV+BnY7kDYpQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKSAHd/W7PY1ZpxNChApQKSAY601PQMPbFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBdxq9QpNmAOoIwAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhklEQVR4nO3bwQkDMQwAwVxIA3b/NV4N+YYQcr+zF2YqECxCLx1jjAd7e64egGsiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFLAa/UAP5znuXaAOefaAb7YpACRAkQK2PEmfbrtPCw/hH/YpACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAnZ/x9z5S/I2NilApACRAo4xxuoZuGCTAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKEClApACRAkQKECngDWTZCk1wg1uqAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAABhElEQVR4nO3csQnDQAxA0ThkgfP+M3oGNylSBFzqPrw3geAj1OlYa73Y23t6AJ6JFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBIgWIFCBSgEgBn+kBvq7rmh7hv/M8p0ewSQUiBYgUsMtN+jV+BnY7kDYpQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKQAkQJEChApQKSAHd/W7PY1ZpxNChApQKSAY601PQMPbFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBYgUIFKASAEiBdxq9QpNmAOoIwAAAABJRU5ErkJggg=="];
+const ANIM_TRIANGLE = ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACrElEQVR4nO3cS27jQAxFUabRG5D2v0atIYMXVKft8t+W+Mh7hwECCDggWSN/LcsSlLs/R38A3Q4kg0AyCCSDQDIIJINAMggkg0AyCCSDQDIIJINAMggkg0AyCCSDQDIIJINAMggkg0AyCCSDQDIIJINAMggkg7Igbdt29CfkLQtSRGzbBtW0REgKp/PSIQUjdVZGJAXVKC+SgiryI6nmThmR1nU9/2PnkcqIFBHrukI1Soqkpk7Rb/ulRgpGKiLyI6nmVB5I6sr2q03lhBSXRypKHyozJNVt+1kiqT5Uxkiqw6GyR4oGh6oCkiq8/eogqZJU1ZBUse1XEylqjVRZJFWDqjiScn+mt0AK82d6FyRluv16ISk7qo5Iymj79UUKn5FqjaTyU4H0U+ZnOkj/SvtMB+m0hNsPpHmpqEC6VpJDBdKNMhwqkO7q2O0H0gMdRQXSw+2//UB6pp1HCqTn240KpFfb4ZkO0hv69DMdpLf1ue3395V/ppOmGJeG7P5Aek8f4lEgvdqlVfYuoQDpxT46QCOQnmwfHgXSw+3Jo0B6oB3OzzSQ7m3/ARqBdLsDeRRI1zqcR4E076jzMw2kSUkGaATSf2XjUSD9lJNHgZTr/EzrjpR5gEZ9kSx4VEckIx7VCyn/+ZnWBcmUR7VAsttvJxVHcudRZZFq8KiCSNbnZ1o1pEoDNKqDVJJHVUAqzKO8keqdn2nGSOUHaGSJ1IdHmSF141E2SE3OzzQPpJ4DNMqO1JxH5UWCZ5QRqfP5mZYR6by2PCo7UnMelRcJnlHS33FA6HfpJgme8xIhwXOpr2VZjv4GulHSm0S/A8kgkAwCySCQDALJIJAMAskgkAwCySCQDALJIJAMAskgkAwCySCQDALJIJAMAskgkAwCySCQDALJIJAMAsmgb25ITZqjsJzHAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAAC6klEQVR4nO3cUW4bMQxFUaXoBsb7X+OsoX+CUNuRPSOJ71Lv/gYIlJ6QTBEgP8dxFKfdn+gHuH5GAmQkQEYCZCRARgJkJEBGAmQkQEYCZCRARgJkJEBGAmQkQEYCZCRARgJkJEBGAmQkQJsinecZ/YQv2hGJJVQ2RKpCIKq9kEAwbRshQYXKPkhcobIJ0jshilx+pP8kHo9H1EsulxwpgVDJjZRDqCRG+lAIcZZyIv0uhBuphEhptlwtG1I+oZIM6ZqQ/lnKg/SVEGvCkiCl3HK1DEj3hcQ3Hh7pshBo2thIubdcDYy0iVDhIg0XUj5LSKRRQpTh4yHts+VqMKQNhQoLabaQ7FnCIE0SQswiA2nPLVcDIK0U0tx46kgLhPTnUhpp8y1X00WyUE0UKVBI8CwpIq0XEh9TOSRvuee0kCz0MiEkHSG1s6SCFC6kPLUSSOFC4sUjWahbMJKskNRZikRSEwp/wLvCkNSElItBQgjpbLwAJGUhqcfUViMpC8m2FMlC11qHRBQSOUuLkEBCgm9bgQQS0mw6koXuNxcpgZDCWZqIxBVSe+osJK6QYFOQLDS28Uj5hMLP0mCkNEJSLx+JlEZIrWFIuYViN94YpOev4TzP8FV+M53vs7/3P8UvGO2HdL5mXAOQ2n99g83o5ziOGZ/3812nDCZyaGchtX0IpqmlsAAGrLtu3oc3W4HUZrALrVh33ZQPmMJZkkBqEzxg4WO9et118z58Tm6S3hU4YeEbD4NUC9GKHVy5dddtw33IQ2rbBIy37rrN+IE+9iwlRGobeMACx5G97rrl2IfJkdq4YMnXXbfLvz5e6bfRJL3sw/GKbXekNlkwI71OCmz3m/RVUf9b8iR9UdR4eZIAxf8BKNfNSICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgP4BlRdi3JhB4+AAAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAADEElEQVR4nO2dy3HjQAwFn7c2ASn/GBWDD7ywRO/q4yHwGnodgGo4zQbhk78ul4uCN3+6DxAeE0kAIglAJAGIJACRBCCSAEQSgEgCEEkAIglAJAGIJACRBCCSAEQSgEgCEEkAIglAJAGIJACRBCCSAEQSgEgCEEkAIglAJAGIJACRBCCSAEQSgEgCEEkAIglAJAGIJACRBCCSAEQSgEgCEEkAIglAJAH4u/wXb7fb8t9kcb1e1/7g+pKWH5HFGY+fcQfgFEkfG9NJD77+m/QjU7XVfIDPGnd3Vj5hmzjvRaz7Js3zVPZEJ0qaOuI27gyd+rDnlvQhQ+/s1zEr+DsUv22nSxofU8FUbyiJ7qn+/BWSBm8QNY9WVNKYoddy8iwOL1C5du+pkzQmpo3KGZ6SnqXxrSqVNCam4lWouSSKp95zVksasI7XP0JDSbih137CLA6v0TIJeiSBYnI4m0tJDndxpOuv1zvaJOE2iMYDd5ZkPvR8zuMy7szp7b5Zkm1MPidRuyQE7Z/PfkmGMTmcYU+/pCO9d2Sydu+xkORwET9icjALSbIZem6DbsNFkiEmGclKUntMnhnJSpIVPhnJTVJjTLYZyU2SmjwZrt177CS142ZInpKKY3IedBuOkhoxzEi2kspi8s9ItpKOFNymZ0ZyllRwZYiM5CxJJw8987V7j7WkMpwNyV/SSTFRBt2Gu6QCzDMSQtLymFgZCSHpyMJb9s9IFEkLrxKXkSiStGjogdbuPRhJy6EYEkvSL2MiDroNkqQjb987KCPhJL19udyMhJOkFRsEKyMRJb0BOiNBJf0mJlxGgkp6CXpG4kp6MiboX693UCUdeVgM1JDQkh5e+oBBtwGWpFc2CG5Gokv6D2My0gBJz8SEzkhl//WlkkkNbeBL0qNQ6BlphiT928QAQxojaTZzJB2jmZGRJkkazChJ+3TGZKRhkqYyTdIW0KSMJH1dLpfuM4QHTCtpJJEEIJIARBKASAIQSQAiCUAkAYgkAJEEIJIARBKASAIQSQAiCUAkAYgkAJEEIJIAfANht993fiKghQAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAADB0lEQVR4nO3cXU7DMBBFYYPYQLr/NWYNPCBVIze4aX4899j3vCFoEvnDnj5U/VqWpTjtvrMfwL3PSICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBIiEtK5r9iPkREIqszphkJ48EzphkGKzOSGRymROVKQykxMD6T+PSZwYSLHH4xF/nMGJh1Tmc0IilcmcAEj/AczjBECKVTCTOMGQXpvBCY9UJnBSR9q54mM7qSPFKon2b0dyIiG9bVQnaaQDqzykkzRSrH3WNf5yACcM0kcN5jQmUhnLSRfp/LIO46SLFNs/kNovhDoxkM40gNP4SIXvJIp0+TqinUSRYocHUvs6ICcA0oVBnRSRbl07opMiUuyqs65xTX0ndaSbYjlNilRQTnJIPReL4iSHFLtjILVvoekkjdQnfScjlSLvpIWUuDrKTlpIsQ4DqX1HHSddpJQ0nYxUJ+gkhKSwHH+pOQkhxfoPpPYD5DqJIimk46SClH6kbCbipIIUSz/rYgpOikhqpTsZaVe5ThJImgOpKtFJAikmNZCqspzkkMRLcTLSx/V3ykdCDKSqzk75SDHlgVTV00kLiVU3JyOdqo9TMhJxIFV1cBLaSaCBVHW3kxASuludMpEGOOti9zmp7CTuWffXuq6vKlc5/VxylTnbY7Cu6/n/PyN91rGvdjtZGhJoIO1/1JsObYmdpDmQUjbNZhJIOunAxIwkChPLQUofSOlj5qPyd1LPVdDfNJvlI90dFCaWgNThrBsAJpa8k65dpsFsnuGPu1FhYkikGWBivZEODyTWm+Zry9xJe1Zztk2zmeJxZ5gqFSTDNPpalqXbzQ4PpDltnqnspNcmh4lpIRlms3wkw7ytH1I1kGyzv647yTDH6vruzh1L5cORrpGRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEA/QIIpjIEwHUcPQAAAABJRU5ErkJggg==", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAACt0lEQVR4nO3b2W3DQAxF0XGQBqT+a1QN+WAWw9FmaRY+8t4KBBxwKIytxzRNhXz3MfoB6DiQBAJJIJAEAkkgkAQCSSCQBAJJIJAEAkkgkAQCSSCQBAJJIJAEAkkgkAQCSSCQBAJJIJAEAkkgkAQCSSCQBAJps2VZRj/Cd5+jH8BjfngsJuk1b0KFSXrOIY8FUimOeSyOO+9CJfkk+eexkk7SsiyrQvM893+Yw9JN0s70+BQq2ZC2hNzyWFmQRHms+EjSPFbwF4cAQiXwJMXgsQIiReKxoh138YRKpEkKyWNFQArMY2kjKV4fXEgYKfwA/SaJlIfHEkPKxmMpvYLnFCoqk5SWx/KOlJzHcn3cIWQ5nSR4nnOHBM//HCEluT64kBckBmin8UjwHDYSCZ6TDXsFR+h8AyYJnnfrigTPtfoddwhdrsckwXOztkjwVKkVEtcHFWuCxADVrTISPC2qhgRPu+q8giPUtLuTBE+H7k7SPM+rHiofdktU57jbcoKqStWuhRipdlW+u1ulYqRu1uSCFaq6NbwFZ1HVqu1PFSyqKvX4PYnT72b9fvSD6nK9/4jCorrQgH8Lsajebdhfujj9zjf40xeozuTi+yQW1X4ukAqLajcvSBan32q+kCyoXvKIZHH6/eYXqTBSP7lGsqASQLIyU8kgWTkXlRhSSTlSekhWKipVJCvJfZI2UslxnySPZMU+/YIgWVGpQiFZ8RZVQKQSblHFRLLCnH6RkawAVPGRLOlFlQWpKC+qREiW4un3mKZp9DMM6xDGyZe/6SbpOScGh6VGKtuLylXZkSznVCD95ZYKpNccOoG0kreRSv0KrhKTJBBIAoEkEEgCgSQQSAKBJBBIAoEkEEgCgSQQSAKBJBBIAoEkEEgCgSQQSAKBJBBIAoEkEEgCgSQQSAKBJBBIAn0B6OBAotE5830AAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAADBUlEQVR4nO3d4W3bQBBE4XHgBsT+a1QN+RHAoBXKpGTydt7evAYU3OfblSgH/rjdbkre/an+B6T9ggQoSICCBChIgIIEKEiAggQoSICCBChIgIIEKEiAggQoSICCBChIgIIEKEiAggQoSICCBChIgIIEKEiAggQoSICCBChIgIIEKEiAggQoSICCBGgc0v1+H/Zazfoc+WJrp2VZRr40uo+R/7F58zJFa7ehN2mzXK/d6pHWBWwzL6R1Aftq6E7S86M/+N5vTi2Xm3QQbM7r5YK0LmAPVY47vXK4xz8L9wMbjaQzbsBsC8xx3O022zxEIq2bAax43OmaI2s2DwuQNPbnugEYftzt1mAe1t8kVRwK6w19DZKcfnL952H/cbeb/zwM0rc8wSzGnaon3s+VL7AyJDmtpeOVLLCMu9cqmYdBer8jYKdcKZdfjqT/Vt6yLP97nDX0KpEoe+hg170VcrlJ9C59s2qExJ14V3+cKEZqMPEGfOAzuknExnwkD9L7DXto4oUEWksjH2vVIxHX0uAHj/VIuMY/Gg7Sa5U8vLdDcl5LVV+vWCAh1lLhF2AWSP7VfkUZpP3Kv0R2RLJaS+VC8kHyXEsOQvJBMsxESLZI5RPPR0hWSD4Tz0pIVkgmuQkpSA8ZCskZafxa8hSSG1LhudgKyQ2pKmchBUn2QjJHGrCW/IVkiDTymBBCMkQaFkVI0yKBhOSPdMVaYgnJE+nSU8MJyRPpuohCQiCdNfGgQrJFOv0EuUKyRTo3tJBmQKILiYL09lpqICRnpN8faA8hOSP9sjZC6orUSUggpONrqZmQzJHeON9+QjJHerWWQmIh/TzxugrJH+ngWTcWkj/SkXoLqQFSeyHhkB5IZhASAunZ0U8iJATSZvMICYo0lZCISLMJiYL0TGIGIVGQNptESFykeYQERZpKSCCkL5jZhARC+teEQqr9qy/pYLCbNGdBAhQkQEECFCRAQQIUJEBBAhQkQEECFCRAQQIUJEBBAhQkQEECFCRAQQIUJEBBAhQkQH8BtCZG7Hlnd10AAAAASUVORK5CYII=", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAAC90lEQVR4nO3ZUW7qQBBEUYiyAbP/NbKGfPinZbAheKa7blP3M0+KzBxqYuldl2W5OO1+qh/Avc5IgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgIwEyEiAjATISICMBMhIgLoh3e/36kcYXyukVaifUyukrvVBigNqNqY+SI1rgvQ4nU5jaoL0tDZOHZDaYOyFR9oI3W63g3+FhkeKbYTaxEZ6OpR+Y2IjxbrO6IJGOphIszGBkWIvZ4R2oiK9PPROtx8S6fi1e+/n3DEhkWKdFrMXD+lfg+gxJh5S7IMZEZ1gSB8ccYP7kIT05vvCY/RLj4QUa7CP98Mgnfz6o8eEQYoNmRHIiYE05EC5NyQDKXbmrKGXHgCJcpTzUkf6+LV7L+KY1JFi3D8qJ5NGmvQ1x41JGik2dUbiTrpIUw+OdXPqIsVmnCno0hNFUj6y/BSRhr9270UZkyJSLPmPh6aTHFLyMSHeIOSQYjknqH/paSEJHpBCWkixzItIfExCSFJHI/UwKkhpr917Kb9BqCDFqs5L9tKTQNI5Ds0kkGK1147mmOqRRA5iL4XHq0eKKfz1VniGTcVICt/Tx9QuvUqk8tduSirXnZqQ1JjKkMrvEFASS1Kb0ZrOmGqQoDOqeuz6JWnOaE3k2QqQWDNSuPSykfza/UGV1x1FqHxMqUisi+6g5A9StiTKjNZqnzYPiT6jwksvCcnvC2cquO64QlVjykCiX3QH5Xy07CVxZ7RW8vzTkfrNKP/SS10SfUZVzUXqN6O15DFNRPJr96iSrrt+QpljmoXU9aI7aN5H/p30ezd9odnApizpa0kmffD6/z53LxuP9LUzWpvx8a/Lsgz/pW5svu4AGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQmQkQAZCZCRABkJkJEAGQnQH9JZAy7IdvrCAAAAAElFTkSuQmCC", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAIAAAAhotZpAAADDUlEQVR4nO3cUW7bMBRE0UnRDUj7X6PXkI+irtDakGtTfHMf5/4HZnBMvgQQ9bVtm5J3P6oXkM4LEqAgAQoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCC92e12m/ZZP6d9UoNmwhwL0nkPbfZ9n7aAID2uatM8LEh/soI5tjqSLcyxRZFetDkOnuOPzBxIWgrpDRiTmiNxYY41RHp9zLxuUzu6+iBN2zTztx0bqcdpdhoPaRGYYxikQpvy/6WskQw3TckGtUMyhCnPAumKP5pHVX7WqRYJt2mqVjIbCQfj0AykwHzYVUjOY+b1HAaShiM13jSFax6A1BjGpAFI+74/cwrMkMY8d/cvxr7vdCGTgaSBD0f+ReLzGw6p9gs38gnW3k6FDX7MuI2T1crHPwvexule+XC95IH9fk61XXWrIk4Du/DqC9fJbanX3k/iOt0rH0iacImsgVN5M276xenDJl3HBDkZrm3enVmQ0z2HgaTJF5uJTg7Nvn0epzcqeEWAs5PVYu7VvMfB2emeyUBS4cs2EE4mVb4Rxc2pfAHPKn5tjZvTPZ+zTuVIMnbyqR5JcTrLAkkGTs7fDBckGTg9W0l5RkhycrLKC0lxepQdkiqczL8Kjkgq3U9uA0m2SMq5d8gXSXH6nTWSpjj527sjae5+MhxIQiBp+XOPgaTLnBDeGCRdv588zzqxkLTquQdD0pJOPCSNc6IAI5F0wX6yHUjiImmlcw+MpGWc2Ej6wAkkikfSiP3kPJDUA0ndz70mSPpPJ5ZiHyS9u5/Mzzo1Q1LTc68bkjo6NUTSmROOrSeSXt5P/gNJjZHU6NzrjKQuTs2R1MKpP5KeDx7EQNIiSOJ4PGwVJJGdFkIS1mktJB2cQGDLIQnF86uvbduq15BOWnEn4QoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCABChKgIAEKEqAgAQoSoCAB+gbzWiA0nODZgAAAAABJRU5ErkJggg=="];
+
+function animatePNGSequence(canvas, frames, fps) {
+  const ctx = canvas.getContext('2d');
+  let i = 0;
+  function tick() {
+    const img = new Image();
+    img.onload = () => {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    };
+    img.src = frames[i % frames.length];
+    i++;
+    setTimeout(tick, 1000/fps);
+  }
+  tick();
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  animatePNGSequence(document.getElementById('anim1'), ANIM_CIRCLE, 10);
+  animatePNGSequence(document.getElementById('anim2'), ANIM_SQUARE, 8);
+  animatePNGSequence(document.getElementById('anim3'), ANIM_TRIANGLE, 12);
+});
+</script>
+</body>
+</html>
